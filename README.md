@@ -12,3 +12,7 @@ The publisher send 5 messages to the message broker in one run.
 b. The url of: ```amqp://guest:guest@localhost:5672``` is the same as in the subscriber program, what does it mean? 
 
 it means both are connecting to the same server, which is expected and necessary for the publisher and subscriber to communicate.
+
+**Running RabbitMQ as message broker**
+
+![Running RabbitMQ](image_1.jpeg)

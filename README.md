@@ -16,3 +16,7 @@ it means both are connecting to the same server, which is expected and necessary
 **Running RabbitMQ as message broker**
 
 ![Running RabbitMQ](image_1.png)
+
+**Sending and processing event**
+
+![Sending event](image_2.png)

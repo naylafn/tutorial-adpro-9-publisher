@@ -20,3 +20,7 @@ it means both are connecting to the same server, which is expected and necessary
 **Sending and processing event**
 
 ![Sending event](image_2.png)
+
+**Monitoring chart based on publisher**
+
+![Monitoring chart](image_3.png)

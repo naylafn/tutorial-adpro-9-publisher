@@ -19,8 +19,12 @@ it means both are connecting to the same server, which is expected and necessary
 
 **Sending and processing event**
 
+Publisher successfully sent 5 messages to the RabbitMQ broker at ```amqp://guest:guest@localhost:5672```. The subscriber, already connected to the same broker and listening for ```user_created``` events, received those messages. Each ```UserCreatedEventMessage``` was deserialized and handled by the ```UserCreatedHandler```, which printed then printed on the console.
+
 ![Sending event](image_2.png)
 
 **Monitoring chart based on publisher**
+
+The spike represents a sudden increase in the rate of messages being published to the broker (by the publisher) and delivered to subscribers.
 
 ![Monitoring chart](image_3.png)
